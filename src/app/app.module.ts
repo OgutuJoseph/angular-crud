@@ -10,12 +10,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { EmployeesListComponent } from './components/employees/employees-list/employees-list.component';
 import { EmployeeAddComponent } from './components/employees/employee-add/employee-add.component';
+import { EmployeeEditComponent } from './components/employees/employee-edit/employee-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeesListComponent,
-    EmployeeAddComponent
+    EmployeeAddComponent,
+    EmployeeEditComponent
   ],
   imports: [
     BrowserModule,
