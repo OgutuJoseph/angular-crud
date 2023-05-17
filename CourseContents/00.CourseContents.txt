@@ -1,5 +1,7 @@
 Resources: https://www.youtube.com/watch?v=CdE6rVfPJ9I&t=1257s
 
+00.30.59
+
 00:00:00 Introduction
 00:00:30 Demo
 00:01:30 Update To Angular 14 and .NET 6
