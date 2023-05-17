@@ -1,0 +1,17 @@
+Resources: https://www.youtube.com/watch?v=CdE6rVfPJ9I&t=1257s
+
+00:00:00 Introduction
+00:00:30 Demo
+00:01:30 Update To Angular 14 and .NET 6
+00:04:50 Create Angular 14 Application
+00:10:48 Install Bootstrap
+00:11:50 Add Navbar
+00:14:40 Create Employees Component
+00:30:10 Create .NET 6 Web API
+00:32:24 Install EF Core
+00:44:00 Create .NET 6 Controller
+00:55:20 Call Web API from Angular app
+01:04:10 Enable CORS in API
+01:09:44 Add Employee Component
+01:29:30 View/Edit Employee Component and API Method
+01:51:20 Delete Employee Functionality  
