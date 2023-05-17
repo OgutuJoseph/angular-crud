@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Employee } from 'src/app/models/employee.model';
 import { EmployeesService } from 'src/app/services/employees.service';
 
@@ -41,8 +41,9 @@ export class EmployeesListComponent {
   ngOnInit(): void {
     this.employeesService.getAllEmployees()
     .subscribe({
-      next: (employees) => {
-        console.log('Retreived employees: ', employees);
+      next: (employeesFetched) => {
+        // console.log('Retreived employees: ', employeesFetched);
+        this.employees = employeesFetched;
       },
       error: (response) => {
         console.log('Error here: ', response)
